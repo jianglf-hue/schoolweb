@@ -1,15 +1,15 @@
 <template>
-  <div class="px-36 m-auto">
+  <div id="home" class="m-auto">
 
-    <div class="flex justify-center p-10">
-      <div class="flex-shrink-0 text-3xl">
+    <div id="wapper" class="flex content-center justify-center py-10">
+      <div class="text-3xl p-10">
         <h1>杭州师范大学</h1>
         <h1>智慧医疗实验室</h1>
       </div>
 
       <img
         alt="photo"
-        class="h-80 mx-20"
+        class="h-72"
         src="../assets/group-photo.jpg"
       />
     </div>
@@ -31,3 +31,13 @@
 
   </div>
 </template>
+
+<style scoped>
+#home {
+  width: 1180px;
+}
+
+#wapper {
+  height: 360px;
+}
+</style>

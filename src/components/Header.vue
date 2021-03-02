@@ -34,4 +34,8 @@
 #nav-items a {
   padding: 0 0.8rem;
 }
+
+header nav{
+  min-width: 1080px;
+}
 </style>
